@@ -1,0 +1,11 @@
+Block Structure:
+The block class defines a block with an index, timestamp, data, and hash linking it to the previous block.
+
+Hashing:
+SHA-256 is used to hash the contents of each block, ensuring data integrity and immutability.
+
+Blockchain Class:
+The blockchain class manages the chain of blocks,adds new block, and checks the chain's validity.
+
+Proof of work:
+The nonce is shown for each block, which is the value that was changed to find the valid hash.
